@@ -1,0 +1,143 @@
+enchantment:
+  max:
+    efficiencyCrystal: 7
+    fortuneCrystal: 5
+
+cannotUpgradeEnchantment: '&c&lERROR &7&l>> &cYou have hit the level cap for this enchantment!'
+
+upgradeablePickaxe:
+  name: '&8( &8&l+ &8)  &bUpgradeable Pickaxe'
+  lore:
+    - ''
+    - '&8&l>>  &aApply &bEnchantment Crystals &aor &7Material Upgrade Tokens'
+    - '&8&l>>  &ato this pickaxe to upgrade it!'
+    - ''
+    - '&8&l>>  &9Unbreakable'
+    - ''
+
+explosivePick:
+  material: 'DIAMOND_PICKAXE'
+  name: '&8( &8&l+ &8)  &cExplosive Pickaxe'
+  lore:
+    - ''
+    - '&8&l>>  &cExplosive I'
+
+upgradeTokens:
+  material: 'SLIME_BALL'
+  name: '&8( &8&l+ &8)  &7Material Upgrade Token'
+  lore:
+    - ''
+    - '&8&l>>  &aApply this to an &bUpgradeable Pickaxe &ato upgrade'
+    - '&8&l>>  &aits material level!'
+
+upgradeGUI:
+  size: 45
+  fillerBlock: 'BLACK_STAINED_GLASS_PANE'
+  blockedItem: 'BARRIER'
+  items:
+    ownPick:
+      slot: 13
+    efficiencyCrystal:
+      material: 'NETHER_STAR'
+      name: '&8( &8&l+ &8) &aEnchantment Crystal &8&l >> &f+1 &bEfficiency'
+      amount: 1
+      lore:
+        - ''
+        - '&8&l>>  &aThis is an &a&lEnchantment Crystal&a!'
+        - '&8&l>>  &aPurchase these &a&lCrystals &aand apply'
+        - '&8&l>>  &athem to an &bUpgradeable Pickaxe &ato'
+        - '&8&l>>  &aincrease the level of &dEfficiency it has!'
+        - ''
+        - '&8&l>>  &aThe current limit for &dEfficiency &ais: &77&a.'
+        - ''
+        - '&8&l>>  &aPricing:'
+        - ''
+        - '&8&l>>  &7Level 1 &a-> &6250 Barter Points'
+        - '&8&l>>  &7Level 2 &a-> &6500 Barter Points'
+        - '&8&l>>  &7Level 3 &a-> &61000 Barter Points'
+        - '&8&l>>  &7Level 4 &a-> &61500 Barter Points'
+        - '&8&l>>  &7Level 5 &a-> &62000 Barter Points'
+        - '&8&l>>  &7Level 6 &a-> &62500 Barter Points'
+        - '&8&l>>  &7Level 7 &a-> &63000 Barter Points'
+      slot: 10
+      altName: '&c&lERROR >> &cYour pickaxe already has maxed &6Efficiency&c.'
+    fortuneCrystal:
+      material: 'NETHER_STAR'
+      name: '&8( &8&l+ &8) &aEnchantment Crystal &8&l >> &f+1 &bFortune'
+      amount: 1
+      lore:
+        - ''
+        - '&8&l>>  &aThis is an &a&lEnchantment Crystal&a!'
+        - '&8&l>>  &aPurchase these &a&lCrystals &aand apply'
+        - '&8&l>>  &athem to an &bUpgradeable Pickaxe &ato'
+        - '&8&l>>  &aincrease the level of &dFortune it has!'
+        - ''
+        - '&8&l>>  &aThe current limit for &dFortune &ais: &75&a.'
+        - ''
+        - '&8&l>>  &aPricing:'
+        - ''
+        - '&8&l>>  &7Level 1 &a-> &6250 Barter Points'
+        - '&8&l>>  &7Level 2 &a-> &6500 Barter Points'
+        - '&8&l>>  &7Level 3 &a-> &61000 Barter Points'
+        - '&8&l>>  &7Level 4 &a-> &61500 Barter Points'
+        - '&8&l>>  &7Level 5 &a-> &62000 Barter Points'
+      slot: 16
+      altName: '&c&lERROR >> &cYour pickaxe already has maxed &6Fortune&c.'
+    matToken:
+      material: 'SLIME_BALL'
+      name: '&8( &8&l+ &8)  &7Material Upgrade Token'
+      amount: 1
+      lore:
+        - ''
+        - '&8&l>>  &aThis is a &7Material Upgrade Token&a!'
+        - '&8&l>>  &aThis will upgrade the level of your'
+        - '&8&l>>  &bUpgradeable Pickaxe &awhen applied!'
+        - ''
+        - '&8&l>>  &aApplying one to your base Wooden'
+        - '&8&l>>  &bUpgradeable Pickaxe &awill upgrade it to'
+        - '&8&l>>  &7Stone&a, then &6Gold&a, &fIron &aand then &bDiamond&a!'
+        - ''
+        - '&8&l>>  &aPricing:'
+        - ''
+        - '&8&l>>  &7Stone &a-> &6300 Barter Points'
+        - '&8&l>>  &fIron &a-> &6600 Barter Points'
+        - '&8&l>>  &bDiamond &a-> &6900 Barter Points'
+      slot: 31
+      altName: '&c&lERROR >> &cYour pickaxe is already &bDiamond&c!'
+
+cannotAfford: '&c&lERROR &7&l>> &cYou cannot afford the &6{cost} Barter Points &cto purchase this Enchantment!'
+cannotAffordMAT: '&c&lERROR &7&l>> &cYou cannot afford the &6{cost} Barter Points &cto purchase this upgrade!'
+noPermission: '&c&lERROR &7&l>> &cYou do not have permission to perform this command!'
+invalidPlayer: '&c&lERROR &7&l>> &cPlayer could not be found!'
+targetPlayerInventoryFull: '&c&lERROR &7&l>> &cTarget player &6{target} &c''s inventory is full!'
+inventoryFull: '&c&lERROR &7&l>> &cYour inventory is currently full, so you couldn''t be given this item!'
+givePickInvalidFormat: '&c&lERROR &7&l>> &cInvalid format! /givepick <player>'
+receivedUpgradeablePickaxe: '&bUpgradeablePickaxe &7&l>> &7You have successfully been given an &aUpgradeable Pickaxe&7!'
+gaveUpgradeablePickaxe: '&bUpgradeablePickaxe &7&l>> &7You have successfully given &6{target} &7an &aUpgradeable Pickaxe&7!'
+cannotEnchantUP: '&c&lERROR &7&l>> &cYou cannot enchant an &bUpgradeable Pickaxe &cwith an Enchantment Table!'
+cannotAnvilUP: '&c&lERROR &7&l>> &cYou cannot add an &bUpgradeable Pickaxe &cto an anvil!'
+cannotGrindstoneUP: '&c&lERROR &7&l>> &cYou cannot add an &bUpgradeable Pickaxe &cto a grindstone!'
+
+exInvalidFormat: '&c&lERROR &7&l>> &cInvalid format! /giveexplosive <player>'
+receivedExplosive: '&bUpgradeablePickaxe &7&l>> &7You have successfully been given an &cExplosive Pickaxe&7!'
+gaveExplosive: '&bUpgradeablePickaxe &7&l>> &7You have successfully given &6{target} &7an &cExplosive Pickaxe&7!'
+
+tracks:
+  efficiencyCrystal:
+    1: 250
+    2: 500
+    3: 1000
+    4: 1500
+    5: 2000
+    6: 2500
+    7: 3000
+  fortuneCrystal:
+    1: 500
+    2: 1000
+    3: 1500
+    4: 2000
+    5: 2500
+  matToken:
+    1: 300
+    2: 600
+    3: 900

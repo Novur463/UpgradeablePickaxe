@@ -1,0 +1,18 @@
+name: UpgradeablePickaxe
+author: MineHorizon Development Team
+version: 1.0-SNAPSHOT
+main: net.minehorizon.upgradeablepick.UpgradeablePick
+api-version: 1.15
+
+depend:
+  - MySQL-Tokens
+
+permissions:
+  upgradeablepickaxe.give:
+    description: Permission to give upgradeable pickaxe
+
+commands:
+  giveupgradeable:
+    description: Command to give an upgradeable pickaxe
+  giveexplosive:
+    description: Command to give an explosive pickaxe
